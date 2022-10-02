@@ -41,7 +41,7 @@
               {{ $message }} 
             </span>
             @enderror
-            <input type="text" class="form-control" placeholder="Enter your Username" name="username" value="{{ old('username') }}">
+            <input type="text" class="form-control" placeholder="Enter your username" name="username" value="{{ old('username') }}">
           </div>
           <div class="field input">
             <label for="password">Password</label>

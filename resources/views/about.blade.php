@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title> About </title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://kit.fontawesome.com/426c14851d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
       <ul class="nav-links">
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Explore</a></li>
+        <li><a href="#">Categories</a></li>
         <li><a href="#">FAQ</a></li>
       </ul>
     </div>
@@ -54,24 +55,6 @@
     </div>
   </section>
 
-  <!-- Content Banner Section  -->
-  <section class="banner">
-    <div class="row">
-      <div class="content-col">
-        <img src="/images/knight.png" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, quas.</p>
-      </div>
-      <div class="content-col">
-        <img src="/images/knight.png" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, quas.</p>
-      </div>
-      <div class="content-col">
-        <img src="/images/knight.png" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, quas.</p>
-      </div>
-    </div>
-  </section>
-
   <!-- Content Collection Section  -->
   <section class="collection">
     <h1>Check Our Collection</h1>
@@ -89,8 +72,16 @@
         <h3>Category Name</h3>
         <p># of collection</p>
       </div>
+      <div class="content-col">
+        <h3>Category Name</h3>
+        <p># of collection</p>
+      </div>
     </div>
     <div class="row">
+      <div class="content-col">
+        <h3>Category Name</h3>
+        <p># of collection</p>
+      </div>
       <div class="content-col">
         <h3>Category Name</h3>
         <p># of collection</p>
@@ -106,9 +97,34 @@
     </div>
   </section>
 
+  <!-- Content Banner Section  -->
+  <section class="banner">
+    <div class="left-content">
+      <header> Engage with others <br> anonymously online  </header>
+      <div class="detail-row">
+        <i class="fa-sharp fa-solid fa-circle-check"></i>
+        <h3> Lorem ipsum dolor </h3>
+      </div>
+      <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+      <div class="detail-row">
+        <i class="fa-sharp fa-solid fa-circle-check"></i>
+        <h3> Lorem ipsum dolor </h3>
+      </div>
+      <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+      <div class="detail-row">
+        <i class="fa-sharp fa-solid fa-circle-check"></i>
+        <h3> Lorem ipsum dolor </h3>
+      </div>
+      <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+    </div>
+    <div class="right-content">
+    </div>
+  </section>
+
   <!-- Join Section  -->
   <section class="join">
-    <h1 class>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Debitis, molestiae!</h1>
+    <header> Lorem ipsum </header>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
     <a href="#"><button class="btn btn-border">Get Connected</button></a>
   </section>
 
