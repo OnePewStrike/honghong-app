@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  min-height: 100vh;
+}
+
 li, 
 button {
   font-size: 14px;
@@ -253,6 +257,8 @@ hr {
 .footer {
   background-color: #26272c;
   color: #fff;
+  position: sticky;
+  top: 100%;
 }
 
 .footer .row {
@@ -409,13 +415,26 @@ hr {
   padding-left: 2px;
 }
 
-.footer-login {
-  color: #fff;
-  background-color: #f7f7f7;
-  min-height: 10vh;
+/* Footer Section */
+.footer {
+  background: #24252A;
+  margin-top: 40px;
+  padding: 10px 40px;
+  bottom: 0;
 }
 
+.footer-details {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.footer-mtn {
+  margin-top: 400px;
+  background: #24252A;
+  padding: 10px 40px;
+}
 
 
 

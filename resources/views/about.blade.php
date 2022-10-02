@@ -15,7 +15,7 @@
   <!-- Header Section  -->
   <section class="header">
     <div class="left-content">
-      <a href="index.html">
+      <a href=" {{ url('about') }} ">
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
@@ -26,8 +26,8 @@
       </ul>
     </div>
     <div class="right-content">
-      <a href="login.html"><button class="btn btn-no-border">Log In</button></a>
-      <a href="register.html"><button class="btn btn-border">Sign Up</button></a>
+      <a href="{{ url('login') }}"><button class="btn btn-no-border">Log In</button></a>
+      <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
     </div>
   </section>
 

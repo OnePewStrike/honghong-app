@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Register</title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -16,13 +16,13 @@
       </a>
     </div>
   </section>
-
-  <!-- Login Section  -->
+  
+  <!-- Register Section  -->
   <section class="hero">
     <div class="wrapper">
       <div class="form signup" style="margin-top: 20px">
-        <header>Login to Honghong</header>
-        <form action="{{ route('login-user') }}" method="post">
+        <header>Register to Honghong</header>
+        <form action="{{route('register-user')}}" method="post">
           @if(Session::has('success'))
           <div class="success-txt">
             {{ Session::get('success') }}
@@ -41,7 +41,7 @@
               {{ $message }} 
             </span>
             @enderror
-            <input type="text" class="form-control" placeholder="Enter your Username" name="username" value="{{ old('username') }}">
+            <input type="text" class="form-control" placeholder="Enter a new username" name="username" value="{{ old('username') }}">
           </div>
           <div class="field input">
             <label for="password">Password</label>
@@ -50,11 +50,11 @@
               {{ $message }} 
             </span>
             @enderror
-            <input type="password" class="form-control" placeholder="Enter your password" name="password" value="{{ old('password') }}">
+            <input type="password" class="form-control" placeholder="Enter a new password" name="password" value="{{ old('password') }}">
           </div>
-          <div class="link">Don't have an account? <a href="{{ url('registration') }}"> Register now </a></div>
+          <div class="link">Already have an account? <a href="{{ url('login') }}"> Login now </a></div>
           <div class="actions">
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </form>
       </div>
