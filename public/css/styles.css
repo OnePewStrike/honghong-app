@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-li,
+li, 
 button {
   font-size: 14px;
   font-weight: 500;
@@ -71,7 +70,7 @@ button {
   align-items: center;
   background: #f7f7f7;
   padding: 30px 175px 20px;
-
+  
   border-bottom: 1px solid #26272c;
 }
 
@@ -83,7 +82,7 @@ hr {
 
 .logo {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 20px;  
   color: #26272c;
 }
 
@@ -186,7 +185,6 @@ hr {
   margin-left: 24px;
   font-size: 16px;
 }
-
 .collection a {
   text-decoration: none;
   font-weight: 600;
@@ -214,7 +212,7 @@ hr {
 }
 
 .collection .row .content-col:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(0,0,0, 0.5);
 }
 
 .collection .row .content-col h3 {
@@ -259,7 +257,7 @@ hr {
   font-weight: 500;
 }
 
-.banner .left-content .detail-row i {
+.banner .left-content .detail-row i{
   font-size: 50px;
 }
 
@@ -277,7 +275,7 @@ hr {
 }
 
 .banner .right-content {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/join.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/images/join.jpg);
   background-position: center;
   background-size: cover;
   width: 500px;
@@ -343,7 +341,7 @@ hr {
 }
 
 
-.footer .row .content-col ul li {
+.footer .row .content-col ul li{
   color: #fff;
   list-style: none;
   margin-top: 10px;
@@ -386,9 +384,9 @@ hr {
   margin-top: 30px;
   width: 400px;
   border-radius: 16px;
-  box-shadow: 0px -0x 26px -2px rgba(0, 0, 0, 0.52);
-  -webkit-box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.52);
-  -moz-box-shadow: 0px 0px 0px -2px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px -0x 26px -2px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 0px 0px 26px -2px rgba(0,0,0,0.52);
+  -moz-box-shadow: 0px 0px 0px -2px rgba(0,0,0,0.52);
 }
 
 .form {
@@ -655,4 +653,119 @@ hr {
 .post-container .row .row-col h3 {
   font-size: 25px;
   font-weight: 400;
+}
+
+/* Contact Section  */
+.contact-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.contact-container .row {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-line {
+  border: 0;
+  margin: 0;
+  width: 1px;
+  height: 500px;
+  background-color: #24252A;
+}
+
+.contact-container .row .contact-col form .contact-details  {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-container .row .contact-col form .contact-details .input{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: left;
+}
+
+.contact-container .row .contact-col form .contact-details .input input {
+  outline: 0;
+  border: none;
+  border-bottom: 2px solid #24252A;
+  width: 250px;
+}
+
+.contact-container .row .contact-col form .input span {
+  font-size: 22px;
+}
+
+.contact-container .row .contact-col form .message textarea {
+  width: 520px;
+  height: 120px;
+  font-size: 16px;
+  margin: 10px 0 20px 20px;
+  resize: none;
+  border: none;
+  border-bottom: 2px solid #24252A;
+}
+
+.contact-container .row .contact-col form .message span {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.contact-container .row .contact-col form .submit button{
+  justify-content: right;
+}
+
+
+.contact-container .row .contact-col {
+  margin: 0px 30px 20px 30px;
+}
+.contact-container .row .contact-col h3 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.contact-container .row .contact-col p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.contact-container .row .contact-col .contact-pair {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.contact-container .row .contact-col .contact-pair .icon {
+  min-width: 35px;
+  height: 35px;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.contact-container .row .contact-col .contact-pair i {
+  font-size: 20px;
+}
+
+.contact-container .row .contact-col .contact-pair h5 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 10px;
 }
