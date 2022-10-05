@@ -6,10 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  min-height: 100vh;
-}
-
 li, 
 button {
   font-size: 14px;
@@ -19,7 +15,7 @@ button {
 }
 
 .btn {
-  padding: 8px 30px;
+  padding: 8px 40px;
 }
 
 .btn-border {
@@ -52,6 +48,7 @@ button {
   align-items: center;
   background: #f7f7f7;
   padding: 30px 175px 20px;
+  
   border-bottom: 1px solid #26272c;
 }
 
@@ -113,6 +110,8 @@ hr {
 /* Introduction Section  */
 .intro {
   display: flex;
+  margin: auto;
+  width: 100%;
   color: #26272c;
   justify-content: center;
   align-items: center;
@@ -147,9 +146,10 @@ hr {
 /* Content Collection Section  */
 .collection {
   padding: 20px 190px;
-  margin: 0 auto;
+  margin: auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .collection h1 {
@@ -208,9 +208,9 @@ hr {
 .banner {
   background-color: #D9D9D9;
   color: #24252A;
-  margin: 0 auto;
+  margin: auto;
   height: 700px;
-  width: 78%;
+  width: 80%;
   border-radius: 10px;
   margin-top: 10px;
   display: flex;
@@ -339,7 +339,7 @@ hr {
 
 .horizontal-line {
   margin: 10px auto;
-  width: 1100px;
+  width: 70%;
   height: 2px;
   background-color: #fff;
 }
@@ -464,6 +464,7 @@ hr {
   background: #24252A;
   margin-top: 40px;
   padding: 10px 40px;
+  width: 100%;
   bottom: 0;
 }
 
@@ -480,7 +481,75 @@ hr {
   padding: 10px 40px;
 }
 
+.footer-st {
+  background-color: #D9D9D9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  padding: 10px 30px 10px 30px;
+}
 
+.footer-st h3 {
+  color: #24252A;
+  font-size: 16px;
+}
+
+/* Categories Section  */
+.categories {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.categories header {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.categories p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+.container {
+  margin: auto;
+}
+
+.container .row {
+  display: flex;
+  margin: 5%;
+  justify-content: space-evenly;
+}
+
+.container .row .row-col {
+  flex-basis: 25%;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 20px;
+  border: 11px solid #D9D9D9;
+}
+
+.container .row .row-col i {
+  text-align: center;
+  font-size: 70px;
+  margin: 30px 0;
+}
+
+.container .row .row-col h5 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.container .row .row-col button {
+  margin: 30px 0;
+}
 
 
 
