@@ -16,18 +16,18 @@
   <!-- Header Section  -->
   <section class="header">
     <div class="left-content">
-      <a href=" {{ url('about') }} ">
+      <a href=" {{ url('home') }} ">
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">FAQ</a></li>
+        <li><a href="{{ url('home')}}">Home</a></li>
+        <li><a href=" {{ url('about') }}">About</a></li>
+        <li><a href=" {{ url('contact') }} ">Contact</a></li>
+        <li><a href=" {{ url('categories') }} ">Categories</a></li>
       </ul>
     </div>
     <div class="right-content">
-      <a href="{{ url('login') }}"><button class="btn btn-no-border">Log In</button></a>
+      <a href=" {{ url('login') }} "><button class="btn btn-no-border">Log In</button></a>
       <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
     </div>
   </section>
@@ -58,7 +58,7 @@
   <!-- Content Collection Section  -->
   <section class="collection">
     <h1>Check Our Collection</h1>
-    <p class="message">See all of them? <a href="#">Explore</a></p>
+    <p class="message">See all of them? <a href=" {{ url('categories') }} ">Categories</a></p>
     <div class="row">
       <div class="content-col">
         <h3>Category Name</h3>

@@ -12,19 +12,19 @@
   <!-- Header Section  -->
   <section class="header">
     <div class="left-content">
-      <a href="#">
+      <a href=" {{ url('home') }} ">
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">FAQ</a></li>
+        <li><a href="{{ url('home')}}">Home</a></li>
+        <li><a href=" {{ url('about') }}">About</a></li>
+        <li><a href=" {{ url('contact') }} ">Contact</a></li>
+        <li><a href=" {{ url('categories') }} ">Categories</a></li>
       </ul>
     </div>
     <div class="right-content">
-      <a href="login.html"><button class="btn btn-no-border">Log In</button></a>
-      <a href="register.html"><button class="btn btn-border">Sign Up</button></a>
+      <a href=" {{ url('login') }} "><button class="btn btn-no-border">Log In</button></a>
+      <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
     </div>
   </section>
   

@@ -11,7 +11,7 @@
   <!-- Header Section  -->
   <section class="header login">
     <div class="left-content">
-      <a href=" {{ url('about') }} ">
+      <a href=" {{ url('home') }} ">
         <h3 class="logo">Honghong</h3>
       </a>
     </div>
@@ -54,7 +54,7 @@
           </div>
           <div class="link">Don't have an account? <a href="{{ url('registration') }}"> Register now </a></div>
           <div class="actions">
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-border">Login</button>
           </div>
         </form>
       </div>
@@ -62,11 +62,9 @@
   </section>
 
   {{-- Footer Section  --}}
-  <section class="footer">
-    <div class="footer-details">
-      <h5>@Honghong Confessions</h5>
-      <h5>Web Application System</h5>
-    </div>
+  <section class="footer-st">
+    <h5>@Honghong Confessions</h5>
+    <h5>Web Application System</h5>
   </section>
 
 </body>

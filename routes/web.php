@@ -25,4 +25,7 @@ Route::post('/register-user', [AuthController::class, 'registerUser'])->name('re
 Route::get('/login', [AuthController::class, 'login']);
 Route::post('/login-user', [AuthController::class, 'loginUser'])->name('login-user');
 Route::get('/logout', [AuthController::class, 'logout']);
+Route::get('/home', [AuthController::class, 'home']);
 Route::get('/about', [AuthController::class, 'about']);
+Route::get('/contact', [AuthController::class, 'contact']);
+Route::get('/categories', [AuthController::class, 'categories']);

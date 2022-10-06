@@ -79,4 +79,19 @@ class AuthController extends Controller
             return redirect('login');
         }
     }
+
+    public function home()
+    {
+        return view("home");
+    }
+
+    public function contact()
+    {
+        return view("contact");
+    }
+
+    public function categories()
+    {
+        return view("categories");
+    }
 }

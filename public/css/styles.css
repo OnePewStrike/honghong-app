@@ -602,6 +602,7 @@ hr {
 .home-intro-banner h2 {
   font-size: 30px;
   font-weight: 400;
+  letter-spacing: 2px;
 }
 
 .home-intro-banner p {
@@ -654,14 +655,10 @@ hr {
   box-sizing: border-box;
   background: #D9D9D9;
   padding: 30px 20px 150px 20px;
-  border-radius: 30px;
+  border-radius: 20px;
   position: relative;
   border: 12px solid #EDEBEB;
   transition: all 0.3s ease 0s;
-}
-
-.post-container .row .row-col:hover {
-  border: 11px solid #5a5b60;
 }
 
 .post-container .row .row-col .user-details {
@@ -735,14 +732,28 @@ hr {
   transition: all 0.3s ease 0s;
 }
 
-.post-container .row .row-col .actions .icon:hover {
-  color: #721c24;
-}
-
 .post-container .row .row-col .actions i {
   font-size: 22px;
+  transition: all 0.3s ease 0s;
+}
+
+.post-container .row .row-col .actions .icon i.fa-heart {
   color: #fff;
 }
+
+.post-container .row .row-col .actions .icon i.fa-heart:hover {
+  color: #cd5561;
+}
+
+.post-container .row .row-col .actions .icon i.fa-comment {
+  color: #fff;
+}
+
+.post-container .row .row-col .actions .icon i.fa-comment:hover {
+  color: #88a7f7;
+}
+
+
 
 /* Contact Section  */
 .contact-container {
@@ -814,11 +825,10 @@ hr {
   margin-left: 20px;
 }
 
-.contact-container .row .contact-col form .submit button{
-  justify-content: right;
+.contact-container .row .contact-col .submit {
+  position: relative;
+  float: right;
 }
-
-
 .contact-container .row .contact-col {
   margin: 0px 30px 20px 30px;
 }
@@ -1097,7 +1107,7 @@ hr {
 }
 
 .pv-container .actions .tabs li.active::after{
-
+  list-style: none;
 }
 
 .pv-container .row {
