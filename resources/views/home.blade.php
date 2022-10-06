@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/426c14851d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -64,13 +64,72 @@
   <section class="post-container">
       <div class="row">
         <div class="row-col">
-          <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+          <div class="user-details">
+            <h2>From:</h3>
+            <h5>username</h5>
+          </div>
+          <div class="content">
+            <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+          </div>
+      
+          <div class="actions">
+            <div class="left-content">
+                <button class="btn btn-border">
+                  <i class="fa-solid fa-eye"></i>
+                  <h5>View Post</h5>
+                </button>
+            </div>
+            <div class="right-content">
+              <div class="icon"><i class="fa-solid fa-heart"></i></div>
+              <div class="icon"><i class="fa-solid fa-comment"></i></i></div>
+            </div>
+          </div>
         </div>
         <div class="row-col">
-          <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+          <div class="user-details">
+            <h2>From:</h3>
+              <h5>username</h5>
+          </div>
+          <div class="content">
+            <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
+              tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+          </div>
+          
+          <div class="actions">
+            <div class="left-content">
+              <button class="btn btn-border">
+                <i class="fa-solid fa-eye"></i>
+                <h5>View Post</h5>
+              </button>
+            </div>
+            <div class="right-content">
+              <div class="icon"><i class="fa-solid fa-heart"></i></div>
+              <div class="icon"><i class="fa-solid fa-comment"></i></i></div>
+            </div>
+          </div>
         </div>
         <div class="row-col">
-          <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+          <div class="user-details">
+            <h2>From:</h3>
+              <h5>username</h5>
+          </div>
+          <div class="content">
+            <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
+              tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+          </div>
+          
+          <div class="actions">
+            <div class="left-content">
+              <button class="btn btn-border">
+                <i class="fa-solid fa-eye"></i>
+                <h5>View Post</h5>
+              </button>
+            </div>
+            <div class="right-content">
+              <div class="icon"><i class="fa-solid fa-heart"></i></div>
+              <div class="icon"><i class="fa-solid fa-comment"></i></i></div>
+            </div>
+          </div>
         </div>
       </div>
   </section>

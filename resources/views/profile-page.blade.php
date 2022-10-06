@@ -43,19 +43,19 @@
     </div>
 
     <div class="actions">
-      <button> Your Favorites </button>
-      <button> Your Posts </button>
+      <ul class="tabs">
+        <li class="active">Your Favorites</li>
+        <li>Your Posts</li>
+      </ul>
     </div>
 
     <div class="row">
-      <div class="content-col">
+      <div class="content-col active">
         <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
             tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
       </div>
-      <div class="content-col">
-        <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
-            tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
-      </div>
+    </div>
+    <div class="row">
       <div class="content-col">
         <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
             tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
