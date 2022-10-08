@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+  <title>FAQs</title>
   <link rel="stylesheet" href="/css/styles.css">
-  <script src="https://kit.fontawesome.com/426c14851d.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Header Section  -->
@@ -40,51 +39,52 @@
     </ul>
   </section>
 
-  <!-- Contact Section  -->
-  <div class="contact-container">
-    <h2>Get in Touch</h2>
-    <div class="row">
-      <div class="contact-col">
-        <form action="#" method="post">
-          <h3>Send us a message</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Etiam tempus turpis a est porta convallis <br> at at nisl.</p>
-          <div class="contact-details">
-            <div class="input">
-              <span>Name*</span> 
-              <input type="text" name="" required="required">
-            </div>
-            <div class="input">
-              <span>Email*</span>
-              <input type="email" name="" required="required">
-            </div>
-          </div>
-          <div class="input message">
-            <span>Message*</span>
-            <br>
-            <textarea required="required"></textarea>
-          </div>
-          <div class="input submit">
-            <button type="submit" class="btn btn-border-md">Submit</button>
-          </div>
-        </form>
+  <!-- FAQs Section -->
+  <section class="faq-container">
+    <header>Frequently Asked Questions (FAQs)</header>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Question 1</h3>
+        
+        <svg width="15" height="10" viewBox="0 0 42 45">
+          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+
       </div>
-      <div class="vertical-line"></div>
-      <div class="contact-col">
-        <h3>Email Us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</p>
-        <div class="contact-pair">
-          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-          <h5>test@test.com</h5>
-        </div>
-        <h3>Call Us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</p>
-        <div class="contact-pair">
-          <div class="icon"><i class="fa-solid fa-phone"></i></div>
-          <h5>09123456789</h5>
-        </div>
+      <div class="answer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper lorem et leo ultrices vulputate. Nam aliquet justo diam, in.</p>
       </div>
     </div>
-  </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Question 2</h3>
+        
+        <svg width="15" height="10" viewBox="0 0 42 45">
+          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+
+      </div>
+      <div class="answer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper lorem et leo ultrices vulputate. Nam aliquet justo diam, in.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Question 3</h3>
+        
+        <svg width="15" height="10" viewBox="0 0 42 45">
+          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+
+      </div>
+      <div class="answer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper lorem et leo ultrices vulputate. Nam aliquet justo diam, in.</p>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer Section -->
   <section class="footer">
@@ -130,5 +130,6 @@
       <h5>Follows Us</h5>
     </div>
   </section>
+  <script src="/js/app.js"></script>
 </body>
 </html>

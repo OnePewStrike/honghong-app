@@ -29,3 +29,4 @@ Route::get('/home', [AuthController::class, 'home']);
 Route::get('/about', [AuthController::class, 'about']);
 Route::get('/contact', [AuthController::class, 'contact']);
 Route::get('/categories', [AuthController::class, 'categories']);
+Route::get('/faq', [AuthController::class, 'faq']);

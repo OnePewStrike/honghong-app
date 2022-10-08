@@ -24,6 +24,7 @@
         <li><a href=" {{ url('about') }}">About</a></li>
         <li><a href=" {{ url('contact') }} ">Contact</a></li>
         <li><a href=" {{ url('categories') }} ">Categories</a></li>
+        <li><a href=" {{ url('faq') }} ">FAQs</a></li>
       </ul>
     </div>
     <div class="right-content">
