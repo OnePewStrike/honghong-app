@@ -604,6 +604,7 @@ hr {
 .home-intro-banner h2 {
   font-size: 30px;
   font-weight: 400;
+  letter-spacing: 2px;
 }
 
 .home-intro-banner p {
@@ -636,93 +637,6 @@ hr {
   padding: 5px 20px;
 }
 
-/* Post Pop-Up Section */
-.center,
-.content-pop {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.content-pop {
-  opacity: 0;
-  visibility: hidden;
-  width: 420px;
-  height: 500px;
-  background: #D9D9D9;
-  border-radius: 5px;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
-  z-index: 2;
-}
-
-.open-popup {
-  opacity: 1;
-  visibility: visible;
-}
-
-.content-pop form .header {
-  position: relative;
-  padding: 20px 20px 10px 20px;
-  height: 68px;
-  background: #24252A;
-  color: #fff;
-  border-radius: 3px 3px 0 0;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-}
-
-.content-pop form .header h2 {
-  color: white;
-  font-weight: normal;
-}
-
-.content-pop form .header .fa-times {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.content-pop form .header .fa-times:hover {
-  color: #D9D9D9;
-}
-
-.content-pop form .content-row {
-  margin: 20px 0 0 20px;
-}
-
-.content-pop form .content-row h3 {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.content-pop form .content-row textarea.title {
-  width: 90%;
-  height: 60px;
-  font-size: 16px;
-  margin: 10px 0 0px 5px;
-  resize: none;
-}
-
-.content-pop form .content-row textarea.message {
-  width: 90%;
-  height: 150px;
-  font-size: 16px;
-  margin: 10px 0 20px 5px;
-  resize: none;
-}
-
-.content-pop form .content-btn {
-  display: flex;
-  justify-content: right;
-  margin-right: 30px;
-}
-
-
-
-
 /* Content Post Section  */
 .post-container {
   width: 100%;
@@ -743,7 +657,7 @@ hr {
   box-sizing: border-box;
   background: #D9D9D9;
   padding: 30px 20px 150px 20px;
-  border-radius: 30px;
+  border-radius: 20px;
   position: relative;
   border: 12px solid #EDEBEB;
   transition: all 0.3s ease 0s;
@@ -915,10 +829,6 @@ hr {
   position: relative;
   float: right;
 }
-
-
-
-
 .contact-container .row .contact-col {
   margin: 0px 30px 20px 30px;
 }
@@ -1294,73 +1204,4 @@ hr {
 
 .pv-container .row .content-col .active {
   display: block;
-}
-
-/* FAQS Section  */
-.faq-container {
-  min-height: 80vh;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.faq-container header {
-  font-size: 48px;
-  margin: 32px 0px;
-}
-
-.faq {
-  max-width: 700px;
-  margin-top: 32px;
-  padding-bottom: 16px;
-  border-bottom: 2px solid #24252A;
-  cursor: pointer;
-}
-
-.question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.question h3 {
-  font-size: 28px;
-}
-
-.answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1.4s ease;
-}
-
-.answer p {
-  padding-top: 16px;
-  line-height: 1.6;
-  font-size: 22px;
-}
-
-.faq.active .answer {
-  max-height: 300px;
-  animation: fade 1s ease-in-out;
-}
-
-.faq.active svg {
-  transform: rotate(180deg);
-}
-
-svg {
-  transition: transform 0.5s ease-in;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-  }
 }

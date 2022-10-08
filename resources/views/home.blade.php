@@ -47,7 +47,7 @@
     <button type="submit" class="btn btn-border-md" onclick="openPopup()">Post</button>
   </section>
 
-  <!-- Post Pop-Up Section  -->
+  {{-- <!-- Post Pop-Up Section  -->
   <section class="pop-container">
     <div class="content-pop" id="popup">
       <form action="#">
@@ -70,7 +70,7 @@
         </div>
       </form>
     </div>
-  </section>
+  </section> --}}
 
   <!-- Standard Search Bar Section  -->
   <section class="search-container">
