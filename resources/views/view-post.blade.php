@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>View Post</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/426c14851d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -46,7 +46,7 @@
   </section>
 
   <!-- Content Post Section  -->
-  <section class="pv-container">
+  <section class="pc-container">
 
     <div class="row">
       <div class="content-col">
@@ -80,7 +80,7 @@
   <section class="ms-container">
     <div class="header-details">
       <h1># Comments</h1>
-      <button class="btn btn-border-md">Leave a Comment</button>
+      <button class="btn btn-border-md" onclick="openCPopup()">Leave a Comment</button>
     </div>
     <div class="row">
       <div class="content-col"></div>
@@ -91,6 +91,39 @@
       <button class="btn btn-border-md">Show More</button>
     </div>
   </section>
+
+  <!-- Post Comment Pop-Up Section  -->
+  <section class="cpop-container">
+    <div class="content-cpop" id="cpopup">
+      <form action="#">
+        <div class="header">
+          <h2>Leave a Comment</h2>
+          <label for="click" class="fas fa-times" onclick="closeCPopup()"></label>
+        </div>
+  
+        <div class="content-row">
+          <h3>Your Comment</h3>
+          <textarea required="required" class="comment"></textarea>
+        </div>
+  
+        <div class="content-btn">
+          <button type="button" class="btn btn-border">Post Content</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    let popUp = document.getElementById("cpopup");
+
+    function openCPopup() {
+      popup.classList.add("open-cpopup");
+    }
+
+    function closeCPopup() {
+      popup.classList.remove("open-cpopup");
+    }
+  </script>
 
     <!-- Footer Section -->
     <section class="footer">
