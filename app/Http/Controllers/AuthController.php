@@ -99,4 +99,9 @@ class AuthController extends Controller
     {
         return view("faq");
     }
+
+    public function viewPost()
+    {
+        return view("view-post");
+    }
 }

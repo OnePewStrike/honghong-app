@@ -44,33 +44,37 @@
   <section class="home-intro-banner">
     <h2> Anonymous Confession Vault</h2>
     <p> Post your darkest secrets, your untold confessions, or your unrevealed thoughts</p>
-    <button type="submit" class="btn btn-border-md" onclick="openPopup()">Post</button>
-  </section>
+    <button type="submit" class="btn btn-border-md" id="openPost">Post</button>
 
-  {{-- <!-- Post Pop-Up Section  -->
-  <section class="pop-container">
-    <div class="content-pop" id="popup">
-      <form action="#">
-        <div class="header">
-          <h2>Post Your Content</h2>
-          <label for="click" class="fas fa-times" onclick="closePopup()"></label>
-        </div>
+    <!-- Post Pop-Up Section  -->
+    <section class="pstp-container">
+      <div class="content-pop" id="popup">
+        <form action="#">
+          <div class="header">
+            <h2>Post Your Content</h2>
+            <label for="click" class="fas fa-times" id="closePost"></label>
+          </div>
   
-        <div class="content-row">
-          <h3>Confession Title</h3>
-          <textarea required="required" class="title"></textarea>
-        </div>
+          <div class="content-row">
+            <div class="content-title">
+              <h3>Confession Title</h3>
+            </div>
+            <textarea required="required" class="title"></textarea>
+          </div>
   
-        <div class="content-row">
-          <h3>Confession Message</h3>
-          <textarea required="required" class="message"></textarea>
-        </div>
-        <div class="content-btn">
-          <button type="button" class="btn btn-border">Post Content</button>
-        </div>
-      </form>
-    </div>
-  </section> --}}
+          <div class="content-row">
+            <div class="content-title">
+              <h3>Confession Message</h3>
+            </div>
+            <textarea required="required" class="message"></textarea>
+          </div>
+          <div class="content-btn">
+            <button type="button" class="btn btn-border">Post Content</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </section>
 
   <!-- Standard Search Bar Section  -->
   <section class="search-container">
@@ -205,5 +209,6 @@
       <h5>Follows Us</h5>
     </div>
   </section>
+  <script src="/js/app.js"></script>
 </body>
 </html>

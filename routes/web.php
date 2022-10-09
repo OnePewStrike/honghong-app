@@ -30,3 +30,4 @@ Route::get('/about', [AuthController::class, 'about']);
 Route::get('/contact', [AuthController::class, 'contact']);
 Route::get('/categories', [AuthController::class, 'categories']);
 Route::get('/faq', [AuthController::class, 'faq']);
+Route::get('/view-post', [AuthController::class, 'viewPost']);
