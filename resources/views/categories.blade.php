@@ -37,45 +37,84 @@
     <div class="container">
       <div class="row">
         <div class="row-col">
-          <i class="fa-solid fa-user-ninja"></i>
-          <h5> Category <br> Name</h5>
+          <i class="fa-solid fa-heart"></i>
+          <h5>Love+Relationships</h5>
           <a href="#"> <button class="btn btn-border">Select</button></a>
         </div>
         <div class="row-col">
-          <i class="fa-solid fa-user-ninja"></i>
-          <h5> Category <br> Name</h5>
+          <i class="fa-solid fa-book-skull"></i>
+          <h5>Confession+Secrets</h5>
           <a href="#"> <button class="btn btn-border">Select</button></a>
         </div>
         <div class="row-col">
-          <i class="fa-solid fa-user-ninja"></i>
-          <h5> Category <br> Name</h5>
+          <i class="fa-solid fa-face-angry"></i>
+          <h5>Hate </h5>
           <a href="#"> <button class="btn btn-border">Select</button></a>
         </div>
       </div>
       <div class="row">
         <div class="row-col">
-          <i class="fa-solid fa-user-ninja"></i>
-          <h5> Category <br> Name</h5>
+          <i class="fa-solid fa-microphone"></i>
+          <h5>Opinion</h5>
           <a href="#"> <button class="btn btn-border">Select</button></a>
         </div>
         <div class="row-col">
-          <i class="fa-solid fa-user-ninja"></i>
-          <h5> Category <br> Name</h5>
+          <i class="fa-solid fa-landmark"></i>
+          <h5>Political</h5>
           <a href="#"> <button class="btn btn-border">Select</button></a>
         </div>
         <div class="row-col">
-          <i class="fa-solid fa-user-ninja"></i>
-          <h5> Category <br> Name</h5>
+          <i class="fa-solid fa-ghost"></i>
+          <h5>Scary</h5>
           <a href="#"> <button class="btn btn-border">Select</button></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer Section  -->
-  <section class="footer-st">
-    <h3>@Honghong Confessions</h3>
-    <h3>Web Application Development</h3>
+  <!-- Footer Section -->
+  <section class="footer">
+    <div class="row">
+      <div class="content-col">
+        <ul>
+          <li class="title">Categories</li>
+          <li>Category Name 1</li>
+          <li>Category Name 2</li>
+          <li>Category Name 3</li>
+          <li>Category Name 4</li>
+          <li>Category Name 5</li>
+        </ul>
+      </div>
+      <div class="content-col">
+        <ul>
+          <li class="title">Link Group 1</li>
+          <li>Link Name 1</li>
+          <li>Link Name 2</li>
+          <li>Link Name 3</li>
+        </ul>
+      </div>
+      <div class="content-col">
+        <ul>
+          <li class="title">Link Group 1</li>
+          <li>Link Name 1</li>
+          <li>Link Name 2</li>
+          <li>Link Name 3</li>
+        </ul>
+      </div>
+      <div class="content-col">
+        <ul>
+          <li class="title">Contact</li>
+          <li>Address</li>
+          <li>Email</li>
+          <li>Number</li>
+        </ul>
+      </div>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="footer-details">
+      <h5>@2022 Honghong Confession Vault</h5>
+      <h5>Follows Us</h5>
+    </div>
   </section>
 </body>
 </html>

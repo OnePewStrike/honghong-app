@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQs</title>
   <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://kit.fontawesome.com/426c14851d.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Header Section  -->
@@ -27,15 +28,50 @@
       <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
     </div>
   </section>
-  
+
   <!-- Sub-header Section  -->
   <section class="sub-header">
-    <ul class="nav-links">
-      <li><a href="#">Category 1</a></li>
-      <li><a href="#">Category 2</a></li>
-      <li><a href="#">Category 3</a></li>
-      <li><a href="#">Category 4</a></li>
-      <li><a href="#">More</a></li>
+    <div class="left-content">
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-heart"></i>
+          <a href="#">Love+Relationships</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-book-skull"></i>
+          <a href="#">Confession+Secrets</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-face-angry"></i>
+          <a href="#">Hate </a>
+        </button>
+    </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-microphone"></i>
+          <a href="#">Opinion</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-landmark"></i>
+          <a href="#">Political </a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-ghost"></i>
+          <a href="#">Scary</a>
+        </button>
+      </div>
+    </div>
+    <div class="right-content">
+      <span>breadcrumbs > placeholder > here</span>
+    </div>
     </ul>
   </section>
 

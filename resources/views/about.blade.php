@@ -35,12 +35,47 @@
 
   <!-- Sub-header Section  -->
   <section class="sub-header">
-    <ul class="nav-links">
-      <li><a href="#">Category 1</a></li>
-      <li><a href="#">Category 2</a></li>
-      <li><a href="#">Category 3</a></li>
-      <li><a href="#">Category 4</a></li>
-      <li><a href="#">More</a></li>
+    <div class="left-content">
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-heart"></i>
+          <a href="#">Love+Relationships</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-book-skull"></i>
+          <a href="#">Confession+Secrets</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-face-angry"></i>
+          <a href="#">Hate </a>
+        </button>
+    </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-microphone"></i>
+          <a href="#">Opinion</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-landmark"></i>
+          <a href="#">Political </a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-landmark"></i>
+          <a href="#">Scary</a>
+        </button>
+      </div>
+    </div>
+    <div class="right-content">
+      <span>breadcrumbs > placeholder > here</span>
+    </div>
     </ul>
   </section>
 
@@ -50,6 +85,24 @@
       <header> Introduction <br> placeholder </header>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Illo deleniti ipsa, nostrum. </p>
       <a href="#"><button class="btn btn-border">Get Started</button></a>
+
+      <div class="lower-content">
+        <h3>Follow Us</h3>
+        <div class="links">
+          <div class="link-col">
+            <i class="fa-brands fa-facebook"></i>
+            <h2>Facebook</h2>
+          </div>
+          <div class="link-col">
+            <i class="fa-brands fa-instagram"></i>
+            <h2>Instagram</h2>
+          </div>
+          <div class="link-col">
+            <i class="fa-brands fa-twitter"></i>
+            <h2>Twitter</h2>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="right-img">
       <img src="/images/knight.png" alt="#">
@@ -99,28 +152,31 @@
   </section>
 
   <!-- Content Banner Section  -->
-  <section class="banner">
-    <div class="left-content">
-      <header> Engage with others <br> anonymously online  </header>
-      <div class="detail-row">
-        <i class="fa-sharp fa-solid fa-circle-check"></i>
-        <h3> Lorem ipsum dolor </h3>
+  <section class="banner-container">
+    <div class="banner">
+      <div class="left-content">
+        <header> Engage with others <br> anonymously online  </header>
+        <div class="detail-row">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <h3> Lorem ipsum dolor </h3>
+        </div>
+        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+        <div class="detail-row">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <h3> Lorem ipsum dolor </h3>
+        </div>
+        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+        <div class="detail-row">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <h3> Lorem ipsum dolor </h3>
+        </div>
+        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
       </div>
-      <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
-      <div class="detail-row">
-        <i class="fa-sharp fa-solid fa-circle-check"></i>
-        <h3> Lorem ipsum dolor </h3>
+      <div class="right-content">
       </div>
-      <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
-      <div class="detail-row">
-        <i class="fa-sharp fa-solid fa-circle-check"></i>
-        <h3> Lorem ipsum dolor </h3>
-      </div>
-      <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
-    </div>
-    <div class="right-content">
     </div>
   </section>
+
 
   <!-- Join Section  -->
   <section class="join">
