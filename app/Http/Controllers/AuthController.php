@@ -21,17 +21,14 @@ class AuthController extends Controller
     public function registerUser(Request $request)
     {
         $request->validate([
-            'name' => 'required',
-            'username' => 'required|unique:users',
+            'username' => 'required|unique:user',
             'password' => 'required',
         ]);
 
-        $name = $request->name;
         $username = $request->username;
         $password = Hash::make($request->password);
 
         $user = new User();
-        $user->name = $name;
         $user->username = $username;
         $user->password = $password;
         $res = $user->save();
@@ -54,7 +51,7 @@ class AuthController extends Controller
         if ($user) {
             if (Hash::check($request->password, $user->password)) {
                 $request->session()->put('loginId', $user->id);
-                return redirect('dashboard');
+                return redirect('home');
             } else {
                 return back()->with('fail', 'Error: This password is not matched.');
             }
@@ -103,5 +100,10 @@ class AuthController extends Controller
     public function viewPost()
     {
         return view("view-post");
+    }
+
+    public function profilePage()
+    {
+        return view("profile-page");
     }
 }

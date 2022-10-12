@@ -24,8 +24,12 @@
       </ul>
     </div>
     <div class="right-content">
-      <a href=" {{ url('login') }} "><button class="btn btn-no-border">Log In</button></a>
-      <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
+      @if(Auth::check())
+        <a href=" {{ url('login') }} "><button class="btn btn-no-border">Log In</button></a>
+        <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
+      @else
+        <a href=" {{ url('logout') }} "><button class="btn btn-border">Log Out</button></a>
+      @endif
     </div>
   </section>
   

@@ -209,6 +209,7 @@ hr {
 .collection .row {
   margin-left: 10px;
   margin-top: 20px;
+  width: 100%;
   display: flex;
 }
 
@@ -252,6 +253,7 @@ hr {
 .banner .left-content {
   display: block;
   flex-direction: column;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -268,17 +270,17 @@ hr {
 }
 
 .banner .left-content .detail-row i {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .banner .left-content .detail-row h3 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 400;
   margin-left: 15px;
 }
 
 .banner .left-content h5 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   margin-left: 88px;
   color: #9898a3;
@@ -288,7 +290,7 @@ hr {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/join.jpg);
   background-position: center;
   background-size: cover;
-  width: 40%;
+  width: 100%;
   margin-left: 68px;
 }
 
@@ -1227,51 +1229,44 @@ hr {
   font-weight: 400;
 }
 
-.pv-container .actions {
-  width: 40%;
-}
 
-.pv-container .actions .tabs {
-  list-style: none;
+/* Tab Selector Section  */
+.tabs-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px;
 }
 
-.pv-container .actions .tabs li {
-  position: relative;
-  font-size: 22px;
-  cursor: pointer;
+.tabs-container .tabs {
+  width: 70%;
+  height: 400px;
 }
 
-.pv-container .actions .tabs li::after {
-  content: '';
-  position: absolute;
-  bottom: -20%;
-  left: -3%;
-  width: 100%;
-  height: 5px;
-  background: #24252A;
-  border-radius: 30px;
+.tabs-container .tabs .tabs-actions {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5%;
 }
 
-.pv-container .actions .tabs li.active::after {
-  list-style: none;
+.tabs-container .tabs .tabs-actions .tabs-toggle {
+  font-size: 19px;
+  background: #9898a3;
+  padding: 15px 40px 15px 40px;
+  cursor: pointer; 
 }
 
-.pv-container .row {
-  width: 100%;
-  position: relative;
+.tabs-container .tabs .tabs-actions .tabs-toggle.is-active {
+  background: #fff;
 }
 
-.pv-container .row .content-col {
-  position: absolute;
-  top: 0;
-  left: 0;
+.tabs-container .tabs .tabs-body .tabs-content {
+  padding: 10px;
   display: none;
 }
 
-.pv-container .row .content-col .active {
+.tabs-container .tabs .tabs-body .tabs-content.is-active {
   display: block;
 }
 

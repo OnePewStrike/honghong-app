@@ -29,6 +29,7 @@
     </div>
   </section>
 
+
   <!-- Breadcrumbs Section  -->
   <section class="bc-container">
     <h4>breadcrumbs > placeholder > here </h4>
@@ -42,24 +43,26 @@
       <h3>Username placeholder</h3>
       <h3>Date account created</h3> 
     </div>
+  </section>
 
-    <div class="actions">
-      <ul class="tabs">
-        <li class="active">Your Favorites</li>
-        <li>Your Posts</li>
-      </ul>
-    </div>
-
-    <div class="row">
-      <div class="content-col active">
-        <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
-            tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+    <!-- Tab Selectors Section  -->
+  <section class="tabs-container">
+    <div class="tabs">
+      <div class="tabs-actions">
+        <span class="tabs-toggle is-active">Selector 1</span>
+        <span class="tabs-toggle">Selector 2</span>
       </div>
-    </div>
-    <div class="row">
-      <div class="content-col">
-        <h3>Lorem ipsum dolor sit amet, cosectetur adipiscing elit. Duis at tincidunt ex, nonn malesuada orci Proin ipsum
-            tellus, mollis quis ipsum imperdiet, scelerisque laoreet nulla.</h3>
+      <div class="tabs-body">
+        <div class="tabs-content is-active">
+          <h2 class="tabs-title"> Title One</h2>
+          <p class="tabs-text">1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur dolorem deleniti
+            iste corrupti et aliquam aliquid reiciendis tenetur minima culpa?</p>
+        </div>
+        <div class="tabs-content">
+          <h2 class="tabs-title"> Title Two</h2>
+          <p class="tabs-text">2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur dolorem deleniti
+            iste corrupti et aliquam aliquid reiciendis tenetur minima culpa?</p>
+        </div>
       </div>
     </div>
   </section>
@@ -69,5 +72,6 @@
     <h3>@Honghong Confessions</h3>
     <h3>Web Application Development</h3>
   </section>
+  <script src="app.js"></script>
 </body>
 </html>
