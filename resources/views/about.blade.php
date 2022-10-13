@@ -20,7 +20,6 @@
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
-        <li><a href="{{ url('home')}}">Home</a></li>
         <li><a href=" {{ url('about') }}">About</a></li>
         <li><a href=" {{ url('contact') }} ">Contact</a></li>
         <li><a href=" {{ url('categories') }} ">Categories</a></li>
@@ -74,7 +73,11 @@
       </div>
     </div>
     <div class="right-content">
-      <span>breadcrumbs > placeholder > here</span>
+      <div class="breadcrumbs">
+        <a href=" {{ url('home') }} ">Home</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href=" {{ url('about')  }} ">About</a>
+      </div>
     </div>
     </ul>
   </section>
@@ -126,16 +129,8 @@
         <h3>Category Name</h3>
         <p># of collection</p>
       </div>
-      <div class="content-col">
-        <h3>Category Name</h3>
-        <p># of collection</p>
-      </div>
     </div>
     <div class="row">
-      <div class="content-col">
-        <h3>Category Name</h3>
-        <p># of collection</p>
-      </div>
       <div class="content-col">
         <h3>Category Name</h3>
         <p># of collection</p>

@@ -16,7 +16,6 @@
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
-        <li><a href="{{ url('home')}}">Home</a></li>
         <li><a href=" {{ url('about') }}">About</a></li>
         <li><a href=" {{ url('contact') }} ">Contact</a></li>
         <li><a href=" {{ url('categories') }} ">Categories</a></li>
@@ -29,10 +28,54 @@
     </div>
   </section>
 
-
-  <!-- Breadcrumbs Section  -->
-  <section class="bc-container">
-    <h4>breadcrumbs > placeholder > here </h4>
+  <!-- Sub-header Section  -->
+  <section class="sub-header">
+    <div class="left-content">
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-heart"></i>
+          <a href="#">Love+Relationships</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-book-skull"></i>
+          <a href="#">Confession+Secrets</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-face-angry"></i>
+          <a href="#">Hate </a>
+        </button>
+    </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-microphone"></i>
+          <a href="#">Opinion</a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-landmark"></i>
+          <a href="#">Political </a>
+        </button>
+      </div>
+      <div class="content-col">
+        <button>
+          <i class="fa-solid fa-ghost"></i>
+          <a href="#">Scary</a>
+        </button>
+      </div>
+    </div>
+    <div class="right-content">
+      <div class="breadcrumbs">
+        <a href=" {{ url('home') }} ">Home</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href="#">Profile</a>
+      </div>
+    </div>
+    </ul>
   </section>
 
   <!-- Profile View Section  -->

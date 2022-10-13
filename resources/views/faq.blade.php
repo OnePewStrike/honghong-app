@@ -16,7 +16,6 @@
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
-        <li><a href="{{ url('home')}}">Home</a></li>
         <li><a href=" {{ url('about') }}">About</a></li>
         <li><a href=" {{ url('contact') }} ">Contact</a></li>
         <li><a href=" {{ url('categories') }} ">Categories</a></li>
@@ -70,7 +69,11 @@
       </div>
     </div>
     <div class="right-content">
-      <span>breadcrumbs > placeholder > here</span>
+      <div class="breadcrumbs">
+        <a href=" {{ url('home') }} ">Home</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href=" {{ url('faq') }} ">FAQs</a>
+      </div>
     </div>
     </ul>
   </section>
@@ -120,7 +123,29 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper lorem et leo ultrices vulputate. Nam aliquet justo diam, in.</p>
       </div>
     </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Question 4</h3>
+        
+        <svg width="15" height="10" viewBox="0 0 42 45">
+          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+
+      </div>
+      <div class="answer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper lorem et leo ultrices vulputate. Nam aliquet justo diam, in.</p>
+      </div>
+    </div>
   </section>
+
+  <!-- FAQs Questions Section -->
+  <section class="ask-questions">
+    <h2>Still have questions?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ullam possimus accusantium? <br> Labore ducimus numquam vitae sequi dicta illum voluptas!</p>
+    <a href=" {{ url('contact') }} "><button class="btn btn-border">Contact Us</button></a>
+  </section>
+  
 
   <!-- Footer Section -->
   <section class="footer">

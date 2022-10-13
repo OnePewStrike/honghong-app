@@ -16,7 +16,6 @@
         <h3 class="logo">Honghong</h3>
       </a>
       <ul class="nav-links">
-        <li><a href="{{ url('home')}}">Home</a></li>
         <li><a href=" {{ url('about') }}">About</a></li>
         <li><a href=" {{ url('contact') }} ">Contact</a></li>
         <li><a href=" {{ url('categories') }} ">Categories</a></li>
