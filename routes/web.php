@@ -27,7 +27,7 @@ Route::post('/login-user', [AuthController::class, 'loginUser'])->name('login-us
 Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/home', [AuthController::class, 'home']);
-
+Route::get('/main', [AuthController::class, 'main']);
 
 Route::get('/about', [AuthController::class, 'about']);
 Route::get('/contact', [AuthController::class, 'contact']);

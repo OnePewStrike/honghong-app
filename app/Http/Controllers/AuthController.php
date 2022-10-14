@@ -82,6 +82,11 @@ class AuthController extends Controller
         return view("home");
     }
 
+    public function main()
+    {
+        return view("main");
+    }
+
     public function contact()
     {
         return view("contact");

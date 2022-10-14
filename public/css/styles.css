@@ -31,7 +31,8 @@ button {
 }
 
 .btn-border-md {
-  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
   background-color: #26272c;
   color: #fff;
   transition: all 0.3s ease 0s;
@@ -78,6 +79,10 @@ button {
   padding: 20px 40px 20px 40px;
   width: 100%;
   border-bottom: 1px solid #26272c;
+}
+
+.no-border {
+  border-bottom: none;
 }
 
 hr {
@@ -145,11 +150,11 @@ hr {
 }
 
 .sub-header .content-col {
-  margin: 0 6px 0 6px;
+  margin: 0 auto;
 }
 
 .sub-header .content-col button {
-  padding: 8px 15px 8px 15px;
+  padding: 8px 15px 8px 0px;
   border: none;
   background-color: #fff;
   transition: all 0.3s ease 0s;
@@ -366,7 +371,7 @@ hr {
 }
 
 .banner .left-content h5 {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 400;
   margin-left: 100px;
   color: #9898a3;
@@ -1456,3 +1461,68 @@ svg {
 .ask-questions button {
   margin-top: 20px;
 }
+
+/* Main Section  */
+.main-container {
+  margin: 8%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+}
+
+.main-container header {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.main-container p {
+  font-size: 22px;
+  margin: 20px 0 40px 0;
+}
+
+.nav-container {
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #d9d9d9;
+}
+
+.nav-container .nav a {
+  display: flex;
+  text-decoration: none;
+  color: #24252A;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-container .nav a h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.nav-container .nav a i {
+  font-size: 22px;
+  margin: 3px 0 0 8px;
+}
+
+
+/* Banner One Section  */
+.banner-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#b-one {
+  background-color: #d9d9d9;
+}
+
+#b-two {
+  background-color: #24252A;
+}
+
+#b-three {
+  background-color: #cd5561;
+}
+
