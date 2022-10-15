@@ -146,50 +146,107 @@
     </section>
   </section>
 
-    <!-- Footer Section -->
-    <section class="footer">
-      <div class="row">
-        <div class="content-col">
-          <ul>
-            <li class="title">Categories</li>
-            <li>Category Name 1</li>
-            <li>Category Name 2</li>
-            <li>Category Name 3</li>
-            <li>Category Name 4</li>
-            <li>Category Name 5</li>
-          </ul>
-        </div>
-        <div class="content-col">
-          <ul>
-            <li class="title">Link Group 1</li>
-            <li>Link Name 1</li>
-            <li>Link Name 2</li>
-            <li>Link Name 3</li>
-          </ul>
-        </div>
-        <div class="content-col">
-          <ul>
-            <li class="title">Link Group 1</li>
-            <li>Link Name 1</li>
-            <li>Link Name 2</li>
-            <li>Link Name 3</li>
-          </ul>
-        </div>
-        <div class="content-col">
-          <ul>
-            <li class="title">Contact</li>
-            <li>Address</li>
-            <li>Email</li>
-            <li>Number</li>
-          </ul>
+  <!-- Chat Pop Up Section  -->
+  <button class="chat-btn" id="openChat">
+    <i class="fa-solid fa-comments"></i>
+  </button>
+  
+  <section class="chat-container" id="chat">
+    <div class="wrapper">
+      <div class="chat-header">
+        <i class="fa-solid fa-arrow-left" id="closeChat"></i>
+        <div class="user-details">
+          <img src="/images/knight.png" alt="">
+          <h2>Username placeholder</h2>
         </div>
       </div>
-      <div class="horizontal-line"></div>
-      <div class="footer-details">
-        <h5>@2022 Honghong Confession Vault</h5>
-        <h5>Follows Us</h5>
+  
+      <div class="users-container">
+        <div class="chat-search">
+          <form action="#">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search by Name" name="Search">
+              <div class="input-btn">
+                <button class="btn btn-no-border-md" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+  
+        <div class="row">
+          <img src="/images/knight.png" alt="">
+          <div class="person-details">
+            <h2>name placeholder</h2>
+            <h3>last chat placeholder</h3>
+          </div>
+          <span class="circle"></span>
+        </div>
+        <div class="row">
+          <img src="/images/knight.png" alt="">
+          <div class="person-details">
+            <h2>name placeholder</h2>
+            <h3>last chat placeholder</h3>
+          </div>
+          <span class="circle"></span>
+        </div>
+        <div class="row">
+          <img src="/images/knight.png" alt="">
+          <div class="person-details">
+            <h2>name placeholder</h2>
+            <h3>last chat placeholder</h3>
+          </div>
+          <span class="circle"></span>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
+  
+  <!-- Footer Section -->
+  <section class="footer">
+    <div class="row">
+      <div class="content-col">
+        <ul>
+          <li class="title">Categories</li>
+          <li>Category Name 1</li>
+          <li>Category Name 2</li>
+          <li>Category Name 3</li>
+          <li>Category Name 4</li>
+          <li>Category Name 5</li>
+        </ul>
+      </div>
+      <div class="content-col">
+        <ul>
+          <li class="title">Link Group 1</li>
+          <li>Link Name 1</li>
+          <li>Link Name 2</li>
+          <li>Link Name 3</li>
+        </ul>
+      </div>
+      <div class="content-col">
+        <ul>
+          <li class="title">Link Group 1</li>
+          <li>Link Name 1</li>
+          <li>Link Name 2</li>
+          <li>Link Name 3</li>
+        </ul>
+      </div>
+      <div class="content-col">
+        <ul>
+          <li class="title">Contact</li>
+          <li>Address</li>
+          <li>Email</li>
+          <li>Number</li>
+        </ul>
+      </div>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="footer-details">
+      <h5>@2022 Honghong Confession Vault</h5>
+      <h5>Follows Us</h5>
+    </div>
+  </section>
   <script src="/js/app.js"></script>
 </body>
 </html>

@@ -110,6 +110,63 @@
     </div>
   </section>
 
+  <!-- Chat Pop Up Section  -->
+  <button class="chat-btn" id="openChat">
+    <i class="fa-solid fa-comments"></i>
+  </button>
+  
+  <section class="chat-container" id="chat">
+    <div class="wrapper">
+      <div class="chat-header">
+        <i class="fa-solid fa-arrow-left" id="closeChat"></i>
+        <div class="user-details">
+          <img src="/images/knight.png" alt="">
+          <h2>Username placeholder</h2>
+        </div>
+      </div>
+  
+      <div class="users-container">
+        <div class="chat-search">
+          <form action="#">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search by Name" name="Search">
+              <div class="input-btn">
+                <button class="btn btn-no-border-md" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+  
+        <div class="row">
+          <img src="/images/knight.png" alt="">
+          <div class="person-details">
+            <h2>name placeholder</h2>
+            <h3>last chat placeholder</h3>
+          </div>
+          <span class="circle"></span>
+        </div>
+        <div class="row">
+          <img src="/images/knight.png" alt="">
+          <div class="person-details">
+            <h2>name placeholder</h2>
+            <h3>last chat placeholder</h3>
+          </div>
+          <span class="circle"></span>
+        </div>
+        <div class="row">
+          <img src="/images/knight.png" alt="">
+          <div class="person-details">
+            <h2>name placeholder</h2>
+            <h3>last chat placeholder</h3>
+          </div>
+          <span class="circle"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <!-- Footer Section  -->
   <section class="footer-st">
     <h3>@Honghong Confessions</h3>
