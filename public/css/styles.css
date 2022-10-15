@@ -24,14 +24,19 @@ button {
 }
 
 .btn-border {
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: #26272c;
   color: #fff;
   transition: all 0.3s ease 0s;
 }
 
+.btn-large {
+  padding: 15px 25px 15px 25px;
+}
+
 .btn-border-md {
-  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
   background-color: #26272c;
   color: #fff;
   transition: all 0.3s ease 0s;
@@ -78,6 +83,10 @@ button {
   padding: 20px 40px 20px 40px;
   width: 100%;
   border-bottom: 1px solid #26272c;
+}
+
+.no-border {
+  border-bottom: none;
 }
 
 hr {
@@ -145,11 +154,11 @@ hr {
 }
 
 .sub-header .content-col {
-  margin: 0 6px 0 6px;
+  margin: 0 auto;
 }
 
 .sub-header .content-col button {
-  padding: 8px 15px 8px 15px;
+  padding: 8px 15px 8px 0px;
   border: none;
   background-color: #fff;
   transition: all 0.3s ease 0s;
@@ -366,7 +375,7 @@ hr {
 }
 
 .banner .left-content h5 {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 400;
   margin-left: 100px;
   color: #9898a3;
@@ -392,7 +401,7 @@ hr {
 
 /* Join Section  */
 .join {
-  margin: 60px auto;
+  margin: 20px auto;
   background-color: #D9D9D9;
   background-position: center;
   background-size: cover;
@@ -484,7 +493,7 @@ hr {
 
 
 
-.wrapper {
+.hero .wrapper {
   background: #fff;
   margin-top: -200px;
   width: 400px;
@@ -609,7 +618,7 @@ hr {
 }
 
 .footer-st {
-  background-color: #D9D9D9;
+  background-color: #24252A;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -619,7 +628,7 @@ hr {
 }
 
 .footer-st h3 {
-  color: #24252A;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1455,4 +1464,331 @@ svg {
 
 .ask-questions button {
   margin-top: 20px;
+}
+
+/* Main Section  */
+.main-container {
+  margin: 8%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+}
+
+.main-container header {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.main-container p {
+  font-size: 22px;
+  margin: 20px 0 40px 0;
+}
+
+.nav-container {
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #d9d9d9;
+}
+
+.nav-container .nav a {
+  display: flex;
+  text-decoration: none;
+  color: #24252A;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-container .nav a h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.nav-container .nav a i {
+  font-size: 22px;
+  margin: 3px 0 0 8px;
+}
+
+/* Banner Container Section  */
+.banner-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#b-one {
+  background-color: #d9d9d9;
+}
+
+#b-two {
+  background-color: #24252A;
+}
+
+#b-three {
+  background-color: #fff;
+}
+
+/* Banner One Section  */
+.banner-one {
+  margin: 5%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-one .left-content {
+  width: 100%;
+}
+
+.banner-one .left-content h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.banner-one .left-content p {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.banner-one .right-content {
+  width: 100%;
+}
+
+.banner-one .right-content img {
+  object-fit: cover;
+  height: 500px;
+}
+
+/* Banner Two Setcion  */
+.banner-two {
+  margin: 5%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-two .left-content { 
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 300px;
+}
+
+.banner-two .left-content .wrapper {
+  width: 20%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 72px;
+}
+
+.banner-two .left-content .wrapper i {
+  color: #fff;
+  font-size: 86px;
+}
+
+.banner-two .right-content {
+  width: 100%;
+}
+
+.banner-two .right-content h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.banner-two .right-content p {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.banner-two .right-content button {
+  background-color: #fff;
+  color: #24252A;
+  transition: all 0.3s ease 0s;
+}
+
+.banner-two .right-content button:hover {
+  background-color: #9898a3;
+}
+
+@media (min-width: 1000px) {
+  .banner-two .left-content .wrapper {
+    padding: 30px;
+  }
+  .banner-two .left-content .wrapper.one {
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  }
+
+  .banner-two .left-content .wrapper.two {
+    position: absolute;
+    top: 90px;
+    right: 320px;
+  }
+
+  .banner-two .left-content .wrapper.three {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+  }
+
+  .banner-two .left-content .wrapper.four {
+    position: absolute;
+    top: 270px;
+    right: 390px;
+  }
+
+  .banner-two .left-content .wrapper.five {
+    position: absolute;
+    top: 350px;
+    left: 60px;
+  }
+
+  .banner-two .left-content .wrapper.six {
+    position: absolute;
+    top: 360px;
+    right: 200px;
+  }
+
+  .banner-one .right-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .banner-one .right-content p {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .banner-two .right-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .banner-two .right-content p {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .banner-three .right-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .banner-three .right-content p {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner-two .left-content .wrapper {
+    padding: 72px;
+  }
+
+  .banner-two .left-content .wrapper.one {
+    position: absolute;
+    top: -100px;
+    left: 250px;
+  }
+
+  .banner-two .left-content .wrapper.two {
+    position: absolute;
+    top: 0px;
+    right: 380px;
+  }
+
+  .banner-two .left-content .wrapper.three {
+    position: absolute;
+    top: 170px;
+    left: 120px;
+  }
+
+  .banner-two .left-content .wrapper.four {
+    position: absolute;
+    top: 270px;
+    right: 470px;
+  }
+
+  .banner-two .left-content .wrapper.five {
+    position: absolute;
+    top: 430px;
+    left: 140px;
+  }
+
+  .banner-two .left-content .wrapper.six {
+    position: absolute;
+    top: 470px;
+    right: 200px;
+  }
+
+}
+
+
+/* Banner Three Section  */
+.banner-three {
+  margin: 5%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-three .left-content {
+  width: 100%;
+}
+
+.banner-three .left-content h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.banner-three .left-content p {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.banner-three .right-content {
+  width: 100%;
+}
+
+.banner-three .right-content img {
+  object-fit: cover;
+  height: 500px;
+}
+
+/* Join Section  */
+.join-container {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/join.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-container h2 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
