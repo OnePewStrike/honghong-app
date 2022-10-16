@@ -27,8 +27,7 @@
       </ul>
     </div>
     <div class="right-content">
-      <a href=" {{ url('login') }} "><button class="btn btn-no-border">Log In</button></a>
-      <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
+      <h3>username</h3>
     </div>
   </section>
 
@@ -112,6 +111,32 @@
     </div>
   </section>
 
+  <!-- Content Banner Section  -->
+  <section class="banner-container">
+    <div class="banner">
+      <div class="left-content">
+        <header> Engage with others <br> anonymously online  </header>
+        <div class="detail-row">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <h3> Lorem ipsum dolor </h3>
+        </div>
+        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+        <div class="detail-row">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <h3> Lorem ipsum dolor </h3>
+        </div>
+        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+        <div class="detail-row">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <h3> Lorem ipsum dolor </h3>
+        </div>
+        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+      </div>
+      <div class="right-content">
+      </div>
+    </div>
+  </section>
+
   <!-- Content Collection Section  -->
   <section class="collection">
     <h1>Check Our Collection</h1>
@@ -146,28 +171,30 @@
     </div>
   </section>
 
-  <!-- Content Banner Section  -->
-  <section class="banner-container">
-    <div class="banner">
-      <div class="left-content">
-        <header> Engage with others <br> anonymously online  </header>
-        <div class="detail-row">
-          <i class="fa-sharp fa-solid fa-circle-check"></i>
-          <h3> Lorem ipsum dolor </h3>
-        </div>
-        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
-        <div class="detail-row">
-          <i class="fa-sharp fa-solid fa-circle-check"></i>
-          <h3> Lorem ipsum dolor </h3>
-        </div>
-        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
-        <div class="detail-row">
-          <i class="fa-sharp fa-solid fa-circle-check"></i>
-          <h3> Lorem ipsum dolor </h3>
-        </div>
-        <h5>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi, hic?</h5>
+  <!-- Team Section  -->
+  <section class="team-container">
+    <header>Meet the Team</header>
+    <div class="row">
+      <div class="content-col">
+        <img src="/images/moses.png" alt="">
+        <h2>Moses Cubelo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor et commodi veniam ab accusantium rerum cum.</p>
+        <h5>Back-End Developer</h5>
+        <i class="fa-brands fa-facebook"></i>
       </div>
-      <div class="right-content">
+      <div class="content-col">
+        <img src="/images/godwin.png" alt="">
+        <h2>Godwin Duliente</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor et commodi veniam ab accusantium rerum cum.</p>
+        <h5>Front-End Developer</h5>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+      <div class="content-col">
+        <img src="/images/mebz.png" alt="">
+        <h2>Ellyza Papas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor et commodi veniam ab accusantium rerum cum.</p>
+        <h5>System Analyst</h5>
+        <i class="fa-brands fa-facebook"></i>
       </div>
     </div>
   </section>

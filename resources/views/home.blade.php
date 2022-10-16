@@ -23,8 +23,7 @@
       </ul>
     </div>
     <div class="right-content">
-      <a href=" {{ url('login') }} "><button class="btn btn-no-border">Log In</button></a>
-      <a href=" {{ url('registration') }} "><button class="btn btn-border">Sign Up</button></a>
+      <h3>username</h3>
     </div>
   </section>
 
