@@ -82,7 +82,7 @@
     <button type="submit" class="btn btn-border-md" id="openPost">Post</button>
 
     <!-- Post Pop-Up Section  -->
-    <section class="pstp-container">
+    <section class="pstp-container" id="post">
       <div class="content-pop" id="popup">
         <form action="#">
           <div class="header">

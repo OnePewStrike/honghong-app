@@ -124,7 +124,7 @@
     </div>
 
     <!-- Post Comment Pop-Up Section  -->
-    <section class="cpop-container">
+    <section class="cpop-container" id="comment">
       <div class="content-cpop" id="cpopup">
         <form action="#">
           <div class="header">
@@ -134,7 +134,7 @@
   
           <div class="content-row">
             <h3>Your Comment</h3>
-            <textarea required="required" class="comment"></textarea>
+            <textarea required="required" class="box"></textarea>
           </div>
   
           <div class="content-btn">
