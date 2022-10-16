@@ -12,6 +12,7 @@ body {
   position: relative;
 }
 
+/* Global Classes  */
 li,
 button {
   font-size: 14px;
@@ -102,6 +103,44 @@ button {
   font-size: 13px;
   color: #d9534f;
   padding-left: 2px;
+}
+
+#tooltip {
+  cursor: pointer;
+}
+
+#tipMid {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #24252A;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: none;
+  transition: opacity 0.5s ease 0;
+  opacity: 0;
+}
+
+#tipMid::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  border: 15px solid;
+  border-top: 16px solid #fff;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
+#tooltip:hover #tipMid {
+  top: -40px;
+  visibility: show;
+  opacity: 1;
 }
 
 /* Header */
@@ -311,7 +350,7 @@ hr {
 .collection h1 {
   margin-top: 20px;
   margin-left: 20px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 35px;
 }
 
@@ -339,16 +378,13 @@ hr {
 }
 
 .collection .row .content-col {
-  background-color: #D9D9D9;
-  padding: 18px 140px 50px 18px;
+  background-color: #fff;
+  padding: 18px 70px 50px 18px;
   border-radius: 10px;
   margin-left: 40px;
   transition: all 0.3s ease 0s;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
   cursor: pointer;
-}
-
-.collection .row .content-col:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .collection .row .content-col h3 {
@@ -371,7 +407,7 @@ hr {
 }
 
 .banner {
-  background-color: #D9D9D9;
+  background-color: #fff;
   color: #24252A;
   margin: auto;
   height: 700px;
@@ -380,6 +416,7 @@ hr {
   margin-top: 40px;
   display: flex;
   padding-left: 0;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
 }
 
 .banner .left-content {
@@ -452,16 +489,69 @@ hr {
   }
 }
 
+/* Team Section  */
+.team-container {
+  width: 100%;
+  text-align: center;
+}
+
+.team-container header {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.team-container .row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team-container .row .content-col {
+  flex-basis: 24%;
+  margin: 0 10px;
+  padding: 40px 20px 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+  border-radius: 8px;
+}
+
+.team-container .row .content-col img {
+  border-radius: 50%;
+  border: 2px solid #24252A;
+  object-fit: fit;
+  height: 120px;
+}
+
+.team-container .row .content-col h2 {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.team-container .row .content-col p {
+  margin-top: 30px;
+}
+
+.team-container .row .content-col h5 {
+  font-size: 16px;
+  margin-top: 80px;
+}
+
+.team-container .row .content-col i {
+  font-size: 30px;
+  margin-top: 20px;
+}
 /* Join Section  */
 .join {
-  margin: 20px auto;
-  background-color: #D9D9D9;
+  margin: 30px auto;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   width: 65%;
   border-radius: 10px;
   padding-top: 20px;
   padding-left: 30px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
 }
 
 .join header {
@@ -958,6 +1048,7 @@ hr {
 }
 
 .post-container .row .row-col .actions .icon {
+  position: relative;
   min-width: 42px;
   height: 42px;
   background: #24252A;
@@ -1095,6 +1186,7 @@ hr {
 }
 
 .contact-container .row .contact-col .contact-pair {
+  position: relative;
   display: flex;
   flex-direction: row;
   margin-top: 10px;
@@ -1921,7 +2013,7 @@ svg {
 /* Chat Pop Up Section  */
 .chat-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right: 40px;
   padding: 20px;
   border-radius: 50%;

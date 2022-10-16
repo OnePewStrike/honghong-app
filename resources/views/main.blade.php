@@ -61,22 +61,28 @@
   <section class="banner-container" id="b-two">
     <div class="banner-two">
       <div class="left-content">
-        <div class="wrapper one">
+        <div class="wrapper one" id="tooltip">
+          <span id="tip">Love+Relationships</span>
           <i class="fa-solid fa-heart"></i>
         </div>
-        <div class="wrapper two">
+        <div class="wrapper two" id="tooltip">
+          <span id="tip">Confession+Secrets</span>
           <i class="fa-solid fa-book-skull"></i>
         </div>
-        <div class="wrapper three">
+        <div class="wrapper three" id="tooltip">
+          <span id="tip">Hate</span>
           <i class="fa-solid fa-face-angry"></i>
         </div>
-        <div class="wrapper four">
+        <div class="wrapper four" id="tooltip">
+          <span id="tip">Opinion</span>
           <i class="fa-solid fa-microphone"></i>
         </div>
-        <div class="wrapper five">
+        <div class="wrapper five" id="tooltip">
+          <span id="tip">Political</span>
           <i class="fa-solid fa-landmark"></i>
         </div>
-        <div class="wrapper six">
+        <div class="wrapper six" id="tooltip">
+          <span id="tip">Scary</span>
           <i class="fa-solid fa-ghost"></i>
         </div>
       </div>
