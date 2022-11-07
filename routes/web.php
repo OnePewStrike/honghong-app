@@ -26,13 +26,20 @@ Route::get('/login', [AuthController::class, 'login'])->middleware('AlreadyLogge
 Route::post('/login-user', [AuthController::class, 'loginUser'])->name('login-user');
 Route::get('/logout', [AuthController::class, 'logout']);
 
+// Registered User Access
 Route::get('/home', [AuthController::class, 'home']);
 Route::get('/main', [AuthController::class, 'main']);
-
 Route::get('/about', [AuthController::class, 'about']);
 Route::get('/contact', [AuthController::class, 'contact']);
 Route::get('/categories', [AuthController::class, 'categories']);
 Route::get('/faq', [AuthController::class, 'faq']);
 Route::get('/view-post', [AuthController::class, 'viewPost']);
-
 Route::get('/profile-page', [AuthController::class, 'profilePage'])->middleware('isLoggedIn');
+
+// Admin User Access
+Route::get('/dashboard', [AuthController::class, 'dashboard']);
+Route::get('/view-categories', [AuthController::class, 'viewCategories']);
+Route::get('/view-users', [AuthController::class, 'viewUsers']);
+Route::get('/add-category', [AuthController::class, 'addCategory']);
+Route::get('/update-category', [AuthController::class, 'updateCategory']);
+Route::get('/update-user', [AuthController::class, 'updateUser']);

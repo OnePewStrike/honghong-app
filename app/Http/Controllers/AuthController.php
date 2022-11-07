@@ -111,4 +111,34 @@ class AuthController extends Controller
     {
         return view("profile-page");
     }
+
+    public function dashboard()
+    {
+        return view("dashboard");
+    }
+
+    public function viewCategories()
+    {
+        return view("view-categories");
+    }
+
+    public function viewUsers()
+    {
+        return view("view-users");
+    }
+
+    public function addCategory()
+    {
+        return view("add-category");
+    }
+
+    public function updateCategory()
+    {
+        return view("update-category");
+    }
+
+    public function updateUser()
+    {
+        return view("update-user");
+    }
 }
